@@ -26,7 +26,7 @@ static ALLOC: jemallocator::Jemalloc = jemallocator::Jemalloc;
 
 It doubled the speed of the compiler so I thought it was worth sacrificing a bit of the "0 dependency" goal.
 
-[Here is the GitHub Repo](https://github.com/elimirks/b64)
+[Here is the GitHub Repo](https://github.com/notsylviaplath/b64)
 
 # A lot has changed since 1969
 
@@ -394,5 +394,5 @@ To test compiler performance, I ran `perf` 100 times over about 1,780,001 lines 
 
 If you want to take a look at some example of B code, take a look at the stdlib or examples directory:
 
-- [stdlib](https://github.com/elimirks/b64/tree/main/assets)
-- [examples](https://github.com/elimirks/b64/tree/main/examples)
+- [stdlib](https://github.com/notsylviaplath/b64/tree/main/assets)
+- [examples](https://github.com/notsylviaplath/b64/tree/main/examples)

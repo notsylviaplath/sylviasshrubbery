@@ -5,7 +5,7 @@ pubDate: "Aug 23 2016"
 heroImage: "../../assets/blarb-logo.jpg"
 ---
 
-[Esoteric programming](https://en.wikipedia.org/wiki/Esoteric_programming_language) languages are awesome. So I decided to create one, which I call [BlarbLang](https://github.com/elimirks/BlarbVM/).
+[Esoteric programming](https://en.wikipedia.org/wiki/Esoteric_programming_language) languages are awesome. So I decided to create one, which I call [BlarbLang](https://github.com/notsylviaplath/BlarbVM/).
 
 The goal of this language is to be the simplest possible systems programming language. It uses a stack for parameters, and every function must destruct its own stack frame, and push a return value, manually. The language "doesn't care" about performance, only simplicity. It currently supports only 5 operations:
 
@@ -19,7 +19,7 @@ The goal of this language is to be the simplest possible systems programming lan
 
 - a ? if index a is true (non-zero), execute the rest of the line
 
-In one of my CS lectures (CSC258) I remembered learning that every gate can be created using NAND gates, so that is the only type of logical operation in the language! Using the above 5 operations, tons of different operations can be created, including adders, shifters, comparison operators, and more. [https://github.com/elimirks/BlarbVM/blob/master/lib.blarb](https://github.com/elimirks/BlarbVM/blob/master/lib.blarb)
+In one of my CS lectures (CSC258) I remembered learning that every gate can be created using NAND gates, so that is the only type of logical operation in the language! Using the above 5 operations, tons of different operations can be created, including adders, shifters, comparison operators, and more. [https://github.com/notsylviaplath/BlarbVM/blob/master/lib.blarb](https://github.com/notsylviaplath/BlarbVM/blob/master/lib.blarb)
 
 There are 8 registers available for users. The 0th register is the line pointer, registers 1-3 are temporary registers (for swapping and stuff), and the 4-7 registers are "long term" registers, meant to be used outside of the standard library (by the user).
 

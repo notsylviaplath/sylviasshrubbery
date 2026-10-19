@@ -30,7 +30,7 @@ heroImage: "../../assets/quaternion-banner.png"
     <iframe id="yt" src="https://www.youtube.com/embed/cuZ99u7OSZE?si=B7SWJ4BtwofjsLAJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
-I was reading about [quaternions](https://en.wikipedia.org/wiki/Quaternion), so I decided to make a simple Quaternion [library and visualizer](https://github.com/elimirks/miscprojects/tree/master/quaternion) in C++ to better understand them.
+I was reading about [quaternions](https://en.wikipedia.org/wiki/Quaternion), so I decided to make a simple Quaternion [library and visualizer](https://github.com/notsylviaplath/miscprojects/tree/master/quaternion) in C++ to better understand them.
 
 If you know what a complex number is, a quaternion is fairly similar. It is essentially a complex number with 3 imaginary components instead of one. I wanted to plot quaternions on a 2D graph to make visualizing quaternion equations easier to understand. Quaternions are often used to model 3D rotations. I first heard about them a few years ago when I was volunteering in a biophysics lab. One of the "killer features" is that they prevent [gimbal lock](https://en.wikipedia.org/wiki/Gimbal_lock), a major problem with modelling 3D rotations.
 

@@ -11,7 +11,7 @@ heroImage: "../../assets/green-mandelbrot.png"
 
 ![Full Mandelbrot Set](/images/glsl-mandelbrot/fullbrot.png)
 
-While working on magicpixel, I wanted to try rendering the Mandelbrot Set. I guess as a $$(sideproject)^2$$. Magicpixel was already using OpenGL for rendering, so it was pretty simple to reuse all the boilerplate code. I pretty much just had to chop out a bunch of unnecessary code and change the fragment shader (more on that later). Here's the [Github repo](https://github.com/elimirks/miscprojects/tree/master/glsl_mandelbrot) for the full project source code.
+While working on magicpixel, I wanted to try rendering the Mandelbrot Set. I guess as a $$(sideproject)^2$$. Magicpixel was already using OpenGL for rendering, so it was pretty simple to reuse all the boilerplate code. I pretty much just had to chop out a bunch of unnecessary code and change the fragment shader (more on that later). Here's the [Github repo](https://github.com/notsylviaplath/miscprojects/tree/master/glsl_mandelbrot) for the full project source code.
 
 The Mandelbrot Set is a fractal defined as the following:
 

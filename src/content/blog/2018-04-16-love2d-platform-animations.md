@@ -11,7 +11,7 @@ I'm currently staying in Vienna, working remotely from the [Metalab](https://met
 
 Using the AABB hit test algorithm, the character movement works such that even if it has "infinite" velocity, it won't be able to travel through walls. Depending on the horizontal and vertical velocity of the character, he will run, roll, slide, crawl, or wall-jump.
 
-You can find the source code [here](https://github.com/elimirks/miscprojects/tree/master/loveanimations). Since it was a weekend project, the code is pretty messy with lots of fun magic numbers. To run it, install [LÖVE](https://love2d.org) and run `love .` in the project directory. The controls are simply the arrow keys. Press down to duck or roll (depending on the player momentum).
+You can find the source code [here](https://github.com/notsylviaplath/miscprojects/tree/master/loveanimations). Since it was a weekend project, the code is pretty messy with lots of fun magic numbers. To run it, install [LÖVE](https://love2d.org) and run `love .` in the project directory. The controls are simply the arrow keys. Press down to duck or roll (depending on the player momentum).
 
 Below is a video of the basic mechanices.
 
